@@ -28,7 +28,7 @@ class Metronome extends Component {
         }
 
         this.setState(state => ({
-            count: (state.count + 1) % state.beats.PerMeasure
+            count: (state.count + 1) % state.beatsPerMeasure
         }));
     };
 
